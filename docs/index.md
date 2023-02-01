@@ -7,10 +7,10 @@ tagline: 技术沉淀
 # actionLink: /zh/guide/
 actions:
   - text: 碎片笔记
-    link: /debris/index.md
+    link: /debris/git/index.md
     type: secondary
   - text: 系统笔记
-    link: /system/index.md
+    link: /system/Arthas/index.md
     type: primary
 #features:
 #  - title: 官网
