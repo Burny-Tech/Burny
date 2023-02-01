@@ -25,7 +25,8 @@ footerHtml: true
 
 |官网&&镜像|优秀博主  |
 |:---:|:---:|
-|[mvn](https://developer.aliyun.com/mvn/guide)  [markdown](https://commonmark.org/help/)  [SpringBoot](https://start.spring.io/)  [gradle](https://docs.gradle.org/current/userguide/more_about_tasks.html)  [阿里云](https://start.aliyun.com/)  |  [夕颜](http://notes.xiyankt.com/#/)   [pdai](https://pdai.tech/)  |
+|[maven](https://developer.aliyun.com/mvn/guide) <br> [markdown](https://commonmark.org/help/)  <br>  [SpringBoot](https://start.spring.io/)  <br>  [Gradle](https://docs.gradle.org/current/userguide/more_about_tasks.html)  <br>  [阿里云](https://start.aliyun.com/)   |  [夕颜](http://notes.xiyankt.com/#/)   [pdai](https://pdai.tech/)  |
 
-读者阅读完如有收获可以支付宝请作者杯冰阔落  
+
+读者阅读完如有收获可以支付宝请笔者杯冰阔落  
 ![](/images/zfb.jpg)
