@@ -22,7 +22,7 @@ export default {
       },
       {
         text: "系统笔记",
-        link: "/system/Arthas/index.md",
+        link: "/system/OpenCV/index.md",
       },
     ],
 
@@ -86,6 +86,10 @@ export default {
         {
           text: "Arthas",
           children: ["/system/Arthas/index.md"],
+        },
+        {
+          text: "计算机视觉-OpenCV",
+          children: ["/system/OpenCV/index.md"],
         },
         {
           text: "Docker",

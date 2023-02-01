@@ -10,7 +10,7 @@ actions:
     link: /debris/git/index.md
     type: secondary
   - text: 系统笔记
-    link: /system/Arthas/index.md
+    link: /system/OpenCV/index.md
     type: primary
 #features:
 #  - title: 官网
