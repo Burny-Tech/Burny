@@ -11,6 +11,10 @@ export default {
   theme: defaultTheme({
     colorModeSwitch: true,
     home: "/",
+
+    lastUpdated: false,
+    contributors: false,
+
     navbar: [
       {
         text: "首页",
