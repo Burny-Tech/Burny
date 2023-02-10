@@ -7,6 +7,7 @@ export default {
   debug: true,
   open: false,
   port: 80,
+  // head: [["script ", { type: "text/javascript", src: "/js/client.js" }]],
 
   theme: defaultTheme({
     colorModeSwitch: true,
@@ -120,11 +121,18 @@ export default {
           text: "SpringSecurity",
           children: ["/system/SpringSecurity/index.md"],
         },
+        {
+          text: "JUC",
+          children: ["/system/JUC/index.md"],
+        },
       ],
     },
   }),
 
   markdown: {
-    level: [1, 2, 3, 4, 5, 6],
+    level: [1, 2, 3, 4, 5, 6, 7, 8],
+    toc: {
+      level: [1, 2, 3, 4, 5, 6, 7, 8],
+    },
   },
 };
