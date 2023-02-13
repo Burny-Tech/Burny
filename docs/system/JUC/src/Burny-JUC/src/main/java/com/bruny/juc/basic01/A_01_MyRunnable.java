@@ -5,7 +5,7 @@ package com.bruny.juc.basic01;
  * @note 推荐实现接口方式而不是继承
  * 理由如下：Java不支持多重继承，
  * 类可能只要求可执行就行，继承整个Thread类开销过大
- * @date 2023/2/6 15:21
+ * 
  */
 
 public class A_01_MyRunnable implements Runnable {

@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 /**
  * @author cyx
  * @note 线程池的中断操作
- * @date 2023/2/6 18:05
+ * 
  */
 
 public class A_10_Interrupt_Executor {

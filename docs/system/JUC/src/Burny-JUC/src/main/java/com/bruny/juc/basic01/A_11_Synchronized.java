@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * Java 提供了两种锁机制来控制多个线程对共享资源的互斥访问，第一个是 JVM 实现的 synchronized，而另一个是 JDK 实现的 ReentrantLock。
  * 同步代码块
  * synchronized 它只作用于同一个对象，如果调用两个对象上的同步代码块，就不会进行同步。
- * @date 2023/2/7 9:39
+ * 
  */
 
 public class A_11_Synchronized {

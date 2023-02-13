@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 /**
  * @author cyx
  * @note
- * @date 2023/2/9 11:27
+ * 
  */
 
 public class A_14_Wait {
