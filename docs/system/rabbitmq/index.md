@@ -299,7 +299,7 @@ import com.rabbitmq.client.*;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/18 0:13
+ * 
  */
 
 public class Consumer {
@@ -380,7 +380,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/18 22:55
+ * 
  */
 
 public class Info {
@@ -425,7 +425,7 @@ import java.util.UUID;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/18 23:05
+ * 
  */
 
 @Slf4j
@@ -459,7 +459,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/17 23:46
+ * 
  */
 
 @Slf4j
@@ -639,7 +639,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/18 22:55
+ * 
  */
 
 public class Info {
@@ -689,7 +689,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/17 23:46
+ * 
  */
 
 @Slf4j
@@ -731,7 +731,7 @@ import java.util.UUID;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/18 23:05
+ * 
  */
 
 @Slf4j
@@ -1043,7 +1043,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 0:17
+ * 
  */
 @Slf4j
 public class Producer {
@@ -1108,7 +1108,7 @@ import java.io.IOException;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer01 {
@@ -1145,7 +1145,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer02 {
@@ -1199,7 +1199,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 0:17
+ * 
  */
 @Slf4j
 public class Producer {
@@ -1267,7 +1267,7 @@ import java.io.IOException;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer01 {
@@ -1514,7 +1514,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 0:17
+ * 
  */
 @Slf4j
 public class Producer {
@@ -1592,7 +1592,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer01 {
@@ -1632,7 +1632,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer02 {
@@ -1781,7 +1781,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 0:17
+ * 
  */
 @Slf4j
 public class Producer {
@@ -1867,7 +1867,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer01 {
@@ -1908,7 +1908,7 @@ import lombok.SneakyThrows;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 
 public class Consumer02 {
@@ -2086,7 +2086,7 @@ import java.util.Scanner;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/22 1:04
+ * 
  */
 @Slf4j
 public class Producer {
@@ -2141,7 +2141,7 @@ import java.util.HashMap;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/21 15:35
+ * 
  */
 @Slf4j
 public class Consumer01 {
@@ -2197,7 +2197,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/22 1:59
+ * 
  */
 
 @Slf4j
@@ -2656,7 +2656,7 @@ import java.util.Map;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/28 0:34
+ * 
  */
 
 @Configuration
@@ -2829,7 +2829,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/28 9:51
+ * 
  */
 @Slf4j
 @Configuration
@@ -2868,7 +2868,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/28 9:51
+ * 
  */
 @Slf4j
 public class Info {
@@ -2910,7 +2910,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/28 9:51
+ * 
  */
 @Slf4j
 @RestController
@@ -2967,7 +2967,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/8/28 9:52
+ * 
  */
 
 @Component
@@ -3005,7 +3005,7 @@ import javax.annotation.PostConstruct;
 /**
  * @Note 继承内部接口需要将该接口注入到rabbitmq里
  * @Author cyx
- * @Date 2022/8/28 10:44
+ * 
  */
 @Slf4j
 @Configuration
@@ -3155,7 +3155,7 @@ import javax.annotation.PostConstruct;
 /**
  * @Note 继承内部接口需要将该接口注入到rabbitmq里
  * @Author cyx
- * @Date 2022/8/28 10:44
+ * 
  */
 @Slf4j
 @Configuration
@@ -3284,7 +3284,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/9/7 10:59
+ * 
  */
 
 @RestController
@@ -3326,7 +3326,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Note 备份交换机报警队列
  * @Author cyx
- * @Date 2022/9/7 11:05
+ * 
  */
 
 @Slf4j
@@ -3365,7 +3365,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/9/1 16:41
+ * 
  */
 @Configuration
 public class Config2 {
@@ -3447,7 +3447,7 @@ spring:
 /**
  * @Note TODO
  * @Author cyx
- * @Date 2022/9/1 16:40
+ * 
  */
 
 public class Info {

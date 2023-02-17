@@ -3,7 +3,7 @@ package com.bruny.juc.basic01;
 /**
  * @author cyx
  * @note
- * @date 2023/2/13 10:12
+ * 
  */
 
 public class A_22_ObjectLock implements  Runnable {

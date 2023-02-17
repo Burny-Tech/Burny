@@ -3,7 +3,7 @@ package com.bruny.juc.basic01;
 /**
  * @author cyx
  * @note
- * @date 2023/2/13 9:53
+ * 
  */
 
 public class A_20_CusLock implements  Runnable {

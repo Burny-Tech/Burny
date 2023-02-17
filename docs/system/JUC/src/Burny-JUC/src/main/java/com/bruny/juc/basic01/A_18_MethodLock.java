@@ -5,7 +5,7 @@ import lombok.Synchronized;
 /**
  * @author cyx
  * @note
- * @date 2023/2/13 9:18
+ * 
  */
 
 public class A_18_MethodLock implements  Runnable {
