@@ -40,3 +40,23 @@ db.dropUser('lisi')   //删除用户
 内部角色：__system
 
 ```
+
+
+
+```sh
+# 文档
+https://www.mongodb.com/docs/v6.0/reference/connection-string/
+        Query query = new Query();
+        Query query2 = new Query(Criteria.where("字段").gt(8000));
+
+        Query query1=new BasicQuery("原生的条件");
+
+        Update update =new Update();
+        update.set("字段名","value");
+
+        MongoTemplate mongoTemplate=new MongoTemplate();
+        mongoTemplate.updateFirst(new Query(),update, Host.class)
+
+
+```
+

@@ -1772,3 +1772,9 @@ kind中定义为DaemonSet
 
 
 
+## 查看日志
+
+```sh
+/var/log/pods
+```
+

@@ -93,8 +93,8 @@ export default {
           children: ["/system/Arthas/index.md"],
         },
         {
-          text: "计算机视觉-OpenCV",
-          children: ["/system/OpenCV/index.md"],
+          text: "AI",
+          children: ["/system/DeepLean/index.md", "/system/OpenCV/index.md"],
         },
         {
           text: "Docker",
