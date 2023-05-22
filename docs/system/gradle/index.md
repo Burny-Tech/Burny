@@ -94,8 +94,6 @@ Groovy是基于java ,运行在JVM上
 同maven设置一样，需要设置下自己下载的gradle 家目录，并且指定jdk  
 每次新建都需要设置gradle 家目录  
 
-#### Java中的闭包
-
 #### 部署 war包
 *  tomcat
 
@@ -116,7 +114,7 @@ Groovy是基于java ,运行在JVM上
 * gradle 有工程树概念 类似于maven中的project 和module
   
 * 有且只有一个，名称要正确
-* 配置的是相对路径，可在路径前面加 :  表示相对路径
+* **配置的是相对路径，可在路径前面加 :  表示相对路径**
 
 ####  <a name="#task">Task </a>
 

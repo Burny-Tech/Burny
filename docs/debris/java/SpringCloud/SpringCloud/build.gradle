@@ -1,0 +1,62 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.4'
+    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
+    id 'java'
+}
+
+group 'tech.burny.cloud.parent'
+version '1.0-SNAPSHOT'
+
+allprojects{
+
+    // 指定需要的插件
+    // 指定语言
+    apply plugin: 'java'
+    //指定编辑器
+    apply plugin: 'idea'
+    // 配置项目信息
+    group 'tech.burny.cloud'
+    version '1.0-SNAPSHOT'
+
+    // 配置仓库
+    repositories {
+//        mavenLocal()
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        mavenCentral()
+    }
+
+
+
+
+}
+
+
+// 配置子工程
+subprojects {
+    // 指定编译版本
+    sourceCompatibility =JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+    // 配置字符编码
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+    // 配置全局依赖版本信息
+    ext {
+
+    }
+
+    //配置子模块依赖
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        compileOnly 'org.projectlombok:lombok'
+        implementation 'org.springframework.boot:spring-boot-starter'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    }
+
+}
