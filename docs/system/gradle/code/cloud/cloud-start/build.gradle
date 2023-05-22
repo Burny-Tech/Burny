@@ -1,0 +1,6 @@
+dependencies {
+    //依赖本项目的子模块
+    implementation  project(':cloud-sub')
+
+
+}

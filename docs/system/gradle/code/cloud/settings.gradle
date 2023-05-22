@@ -1,0 +1,11 @@
+// 一个多聚合的项目只有一个settings.gradle
+rootProject.name = 'cloud'
+
+
+
+
+//定义子模块 业务模块
+
+include  'cloud-start'
+include 'cloud-sub'
+
