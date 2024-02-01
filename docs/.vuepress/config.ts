@@ -23,11 +23,11 @@ export default {
       },
       {
         text: "碎片笔记",
-        link: "/debris/git/index.md",
+        link: "/debris/git/",
       },
       {
         text: "系统笔记",
-        link: "/system/OpenCV/index.md",
+        link: "/system/OpenCV/",
       },
     ],
 
@@ -35,95 +35,95 @@ export default {
       "/debris/": [
         {
           text: "Git",
-          children: ["/debris/git/index.md"],
+          children: ["/debris/git/"],
         },
         {
           text: "sh",
           children: [
-            "/debris/sh/docker/index.md",
-            "/debris/sh/gogs2gitlab/index.md",
-            "/debris/sh/ssl/index.md",
-            "/debris/sh/yum/index.md",
-            "/debris/sh/dashbord/index.md",
+            "/debris/sh/docker/",
+            "/debris/sh/gogs2gitlab/",
+            "/debris/sh/ssl/",
+            "/debris/sh/yum/",
+            "/debris/sh/dashbord/",
             "/debris/sh/sh/crontabs.md",
             "/debris/sh/sh/httpd-tools.md",
             "/debris/sh/sh/jps.md",
             "/debris/sh/sh/selfStart.md",
             "/debris/sh/sh/xianzhi.md",
-            "/debris/sh/index.md",
+            "/debris/sh/",
           ],
         },
         {
           text: "Java",
-          children: ["/debris/java/Java/index.md"],
+          children: ["/debris/java/Java/"],
         },
         {
           text: "SpringBoot",
-          children: ["/debris/java/SpringBoot/index.md"],
+          children: ["/debris/java/SpringBoot/"],
         },
         {
           text: "SpringJPA",
-          children: ["/debris/java/JPA/index.md"],
+          children: ["/debris/java/JPA/"],
         },
         {
           text: "MongoDB",
-          children: ["/debris/mongodb/index.md"],
+          children: ["/debris/mongodb/"],
         },
         {
           text: "MySQL",
-          children: ["/debris/mysql/index.md"],
+          children: ["/debris/mysql/"],
         },
         {
           text: "Oracle",
-          children: ["/debris/oracle/index.md"],
+          children: ["/debris/oracle/"],
         },
         {
           text: "软考",
-          children: ["/debris/ruankao/index.md"],
+          children: ["/debris/ruankao/"],
         },
         {
           text: "Node",
-          children: ["/debris/web/index.md"],
+          children: ["/debris/web/"],
         },
       ],
 
       "/system/": [
         {
           text: "Arthas",
-          children: ["/system/Arthas/index.md"],
+          children: ["/system/Arthas/"],
         },
         {
           text: "AI",
-          children: ["/system/DeepLean/index.md", "/system/OpenCV/index.md"],
+          children: ["/system/DeepLean/", "/system/OpenCV/"],
         },
         {
           text: "Docker",
-          children: ["/system/docker/index.md"],
+          children: ["/system/docker/"],
         },
 
         {
           text: "Gradle",
-          children: ["/system/gradle/index.md"],
+          children: ["/system/gradle/"],
         },
         {
           text: "K8S",
-          children: ["/system/kubernetes/index.md"],
+          children: ["/system/kubernetes/"],
         },
         {
           text: "Rabbitmq",
-          children: ["/system/rabbitmq/index.md"],
+          children: ["/system/rabbitmq/"],
         },
         {
           text: "Redis",
-          children: ["/system/redis/index.md"],
+          children: ["/system/redis/"],
         },
         {
           text: "SpringSecurity",
-          children: ["/system/SpringSecurity/index.md"],
+          children: ["/system/SpringSecurity/"],
         },
         {
           text: "JUC",
-          children: ["/system/JUC/index.md"],
+          children: ["/system/JUC/"],
         },
       ],
     },
